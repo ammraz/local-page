@@ -1,0 +1,47 @@
+#centralPart {
+    float: left;
+    width: 46%;
+    margin-top: 2%;
+    margin-left: 16%;
+    margin-right: 16%;
+    border-bottom: 3px solid silver;
+    font-size: 1.5em;
+    padding-left: 20%;
+    font-family: Comic Sans MS, sans-serif;
+}
+
+#leftPart {
+    float: left;
+    width: 25%;
+    height: 300px;
+    border-left: 3px solid silver;
+    margin-top: 50px;
+    padding-top: 0.7%;
+    padding-bottom: 0.3%;
+    line-height: 40px;
+    margin-left: 5%;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 1.5em;
+}
+
+#rightPart {
+    float: right;
+    width: 25%;
+    height: 300px;
+    border-right: 3px solid silver;
+    text-align: right;
+    margin-top: 50px;
+    padding-top: 0.7%;
+    padding-bottom: 0.3%;
+    line-height: 40px;
+    margin-right: 5%;
+    padding-right: 10px;
+    box-sizing: border-box;
+    font-size: 1.5em;
+}
+
+.linn:hover {
+    background-color: gray;
+    border-radius: 5px;
+}
